@@ -13,6 +13,7 @@ class App extends React.Component<any, any> {
     onClickBtn() {
         this.setState({ isAllow: !this.state.isAllow })
         this.props.setAuthenticated(this.state.isAllow);
+        console.log("test");
     }
 
     render() {
